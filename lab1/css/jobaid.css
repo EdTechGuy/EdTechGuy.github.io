@@ -16,7 +16,7 @@ h1, h2, h3 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:900px;
+	width:800px;
 	margin:0 auto;    /* centers wrapper */
 }
 
@@ -24,15 +24,15 @@ h1, h2, h3 {
 .stepTitle{
 	padding:12px;
 	text-align:left;
-	font-size:32px;
-	background-color:#6EA147
+	font-size:20px;
+	background-color:#6EA147;
  }
 
 .stepContent{ 
-	background-color: white;
+	background-color:white;
 	padding:7px;
-	display: flex;
-	justify-content: space-around;
+	display:flex;
+	justify-content:center; 
 }
 
 .stepDescription {
@@ -41,10 +41,21 @@ h1, h2, h3 {
 }
 
 .stepImage {
-	border-radius; 5px
+	border-radius:5px;
 	width:40%;	
 	padding:5px;
 	
+}
+.warning {
+	background-color:#fbb8c4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons {
+	color:red;
+	font-size:3em;
+		
 }
 
 
