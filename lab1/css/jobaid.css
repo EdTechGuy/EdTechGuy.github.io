@@ -16,8 +16,13 @@ h1, h2, h3 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:800px;
+	width:550px;
 	margin:0 auto;    /* centers wrapper */
+}
+
+#wrapper2 {
+	width:700px;
+	margin:0 auto;
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
