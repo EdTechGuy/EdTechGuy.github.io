@@ -4,38 +4,46 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:white;/* background color */
+	background-color:mintcream;/* background color */
 	color: #000000;          /* text color for the entire page */
 	font-size: 14px;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
-h1, h2, h3 { 
+h1, h3 { 
 	text-align:center;     /* centers h1 and h2 content */
 	background-color:#476EA1;   /* background color */
 	color: #000000; 
+	
+}
+h2 {
+	text-align:center;
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
 	width:800px;
-	padding-left:5%;
-	padding-right:5%;
-	margin:0 auto;    /* centers wrapper */
+	background-color:#476EA1;
+	padding:20px;
+	border:3px #0D0335;
+	border-radius: 50px 50px 25px 25px;
+	margin:0 auto;
 }
 
 #wrapper2 {
 	width:700px;
-	padding-left:5%;
-	padding-right:5%;
-	margin:0 auto; 
-	
+	background-color:#476EA1;
+	padding:20px;
+	border:3px #0D0335;
+	border-radius: 25px;
+	margin:0 auto;
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepButtons{
 	padding:20px;
 	text-align:center;
+	
 	
 }
 .stepTitle{
@@ -82,6 +90,7 @@ a {
 	background-color:#6EA147; 
 	color:#7C3051;
 	justify-content:right;
+	border-radius: 80px;
 }
 
 a:hover {
