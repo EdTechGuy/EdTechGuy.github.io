@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>question2.html</title>
+	
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<script>
+		$(function(){
+
+			$("#option1").click( function(){
+				$("#feedback").html("<h2 style='color:red'> Corn will crowd out the artichoke and takes a large amount of nitrogen. Artichokes need plenty of space</h2>");
+				$("#artichoke_garden").css("display","none");
+				});
+
+			 $("#option2, #option4").click( function(){
+				$("#feedback").html("<h2 style='color:green'> These plants will provide addtional nitrogen to the ground to help the artichoke grow. </h2>");
+				$("#artichoke_garden").css("display","inline");
+				});
+
+			$("#option3").click( function(){
+				$("#feedback").html("<h2 style='color:green'> Yes, Tarragon will add nitrogen to the ground and has the added benefit of being used in many artichoke recipes! <h ref="https://therecipe.website/artichoke-and-tarragon-dip/">Try this recipe for a delicious dip.</a></h2>);
+				$("#artichoke_garden").css("display","inline");
+				});
+		});
+	</script>
+	
+</head>
+<body>
+	<div id="wrapper">
+	<h1>What are the best companion plants for artichoke?</h1>
+	<h3>Click on one of the following choices</h3>
+
+	<h2 id="option1" class="choices"> Corn </h2>
+	<h2 id="option2" class="choices"> Sunflowers </h2>
+	<h2 id="option3" class="choices"> Tarragon </h2>
+	<h2 id="option4" class="choices"> Peas </h2>
+	<div id="feedback"></div>
+	<img id="artichoke_garden" src="img/artichoke_garden.jpg" alt="Garden of artichokes"/>
+	</div>
+
+</body>
+</html>
