@@ -16,6 +16,9 @@ h1, h3 {
 	color: #000000; 
 	
 }
+h1 {
+	font-size: 40px;
+}
 h2 {
 	text-align:center;
 }
@@ -26,20 +29,20 @@ h2 {
 	text-align:center;
 }
 #wrapper {
-	width:800px;
+	width:1100px;
 	background-color:#476EA1;
 	padding:20px;
 	border:3px #0D0335;
-	border-radius: 50px 50px 25px 25px;
+	border-radius: 5px 5px 5px 5px;
 	margin:0 auto;
 }
 
 #wrapper2 {
 	width:700px;
-	background-color:#476EA1;
-	padding:20px;
+	background-color:#B2DBE5;
+	padding:10px;
 	border:3px #0D0335;
-	border-radius: 25px;
+	border-radius: 5px;
 	margin:0 auto;
 }
 
@@ -47,7 +50,7 @@ h2 {
 .stepButtons{
 	padding:20px;
 	text-align:center;
-	
+	border-radius: 5px;
 	
 }
 .stepTitle{
@@ -92,15 +95,16 @@ a {
     margin: 10px;
 	font-size: 125%;
 	background-color:#6EA147; 
-	color:#7C3051;
+	color:white;
 	justify-content:right;
-	border-radius: 80px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
 a:hover {
-	font-size:200%;
+	font-size:150%;
 	background-color: #7C3051; 
-	color:#6EA147; 
+	color:white; 
 	justify-content:center;
 }
 
@@ -123,14 +127,16 @@ a:hover {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  background-color: #7C3051;
+	color: white;
+	
 }
 
 /* Position and style the close button (top right corner) */
@@ -138,8 +144,10 @@ a:hover {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+
   margin-left: 50px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
