@@ -25,6 +25,7 @@ h2 {
 	background-color:#476EA1;
 	padding:20px;
 	border:3px #0D0335;
+	border-radius: 5px 5px 5px 5px;
 	margin:0 auto;
 }
 
@@ -39,7 +40,7 @@ h2 {
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepButtons{
-	padding:5px;
+	padding:20px;
 	text-align:center;
 	
 	
