@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:mintcream;/* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 14px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+h1, h3 { 
+	text-align:center;     /* centers h1 and h2 content */
+	background-color:#476EA1;   /* background color */
+	color: #000000; 
+	
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	text-align:center;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#top menu {
+	padding:20px;
+	text-align:center;
+}
+#wrapper {
+	width:1100px;
+	background-color:#476EA1;
+	padding:20px;
+	border:3px #0D0335;
+	border-radius: 5px 5px 5px 5px;
+	margin:0 auto;
+}
+
+#wrapper2 {
+	width:700px;
+	background-color:#B2DBE5;
+	padding:10px;
+	border:3px #0D0335;
+	border-radius: 5px;
+	margin:0 auto;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepButtons{
+	padding:20px;
+	text-align:center;
+	border-radius: 5px;
+	
+}
+.stepTitle{
+	padding:12px;
+	text-align:left;
+	font-size:20px;
+	background-color:#6EA147;
+ }
+
+.stepContent{ 
+	background-color:white;
+	padding:7px;
+	display:flex;
+	justify-content:left; 
+}
+
+.stepDescription {
+	width:60%;
+	padding:5px;
+}
+
+.stepImage {
+	border-radius:5px;
+	width:40%;	
+	padding:5px;
+	
+}
+.warning {
+	background-color:#fbb8c4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons {
+	color:red;
+	font-size:3em;
+		
+}
+
+a {
+	padding: 12px;
+    margin: 10px;
+	font-size: 125%;
+	background-color:#6EA147; 
+	color:white;
+	justify-content:right;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size:150%;
+	background-color: #7C3051; 
+	color:white; 
+	justify-content:center;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  background-color: #7C3051;
+	color: white;
+	
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+
+  margin-left: 50px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
