@@ -56,7 +56,7 @@ h2 {
 .stepContent{ 
 	background-color:white;
 	padding:7px;
-	display:flex;
+	display:block;
 	justify-content:left; 
 }
 
