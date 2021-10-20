@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+	<link href="../lab3/css/lab3.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="../home_page.html">Home</a>
+	  <a href="../lab3/index.html">Getting Started</a>
+	  <a href="../lab2/index.html">Add-On</a>
+	  <a href="../lab6/index.html">Dashboard</a>
+	  <a href="../page4.html"> Feedback </a>
+	</div>
+<div id="main">
+<!-- Use any element to open the sidenav -->
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</span>
+
+<script>
+	function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+	<div id="wrapper">
+			<h1> Meet Pear Deck</h1>
+	</div>
+		<div class= "stepButtons">
+			<a href="../lab3/index.html"> Getting Started With Pear Deck </a>
+			<a href="../lab2/index.html"> Install Add-On</a>
+			<a href="../lab6/index.html"> Explore the Dashboard</a>
+			<a href="../page4.html"> Pear Deck Feedback</a>	
+		</div>
+	<br><br>
+	<div id="wrapper2">
+		<h2>If you ever choose to remove Pear Deck, you may want to remove the apps permissions for accessing Google Drive. Watch the video below to learn how to remove app access to your google account.</h2>
+	</div>
+</div>
+</body>
+</html>
