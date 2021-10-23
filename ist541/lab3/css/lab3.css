@@ -89,7 +89,22 @@ h2 {
 	font-size:3em;
 		
 }
+.feedback {
+	background-color:#5CBEED;
+	padding:10px;
+	justify-content: center;
+	width: 400px;
+}
+.image {
+	justify-content:center;
+}
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
 a {
 	padding: 12px;
     margin: 10px;
