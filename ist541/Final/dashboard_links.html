@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index.html</title>
+<link href="../lab3/css/lab3.css" rel="stylesheet" type="text/css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="../lab6/js/hotspot.js"></script>
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	   <a href="../Final/introduction.html">Introducing Pear Deck</a>
+	  <a href="test_deck.html">Give It A Try</a>
+	  <a href="create_account.html">Set Up an Account</a>
+	  <a href="account_security.html">Keep Account Secure</a>
+	  <a href="../Final/add_on_install.html">Add-On</a>
+	  <a href="../Final/dashboard_links.html">Dashboard</a>
+		<a href="engaged.html">Engaging Students</a>
+	  <a href="../Final/feedback.html"> Feedback </a>
+	</div>
+<div id="main">
+<!-- Use any element to open the sidenav -->
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</span>
+
+<script>
+	function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<div id="wrapper">       
+ <h1>Investigate the links to learn more about the Pear Deck Add-On for Google Slides Dashboard</h1>
+  </div>
+		
+	<br><br>
+ 
+	
+  <div id="image">
+	<img src="../lab6/img/pear_deck_dashboard.png" alt="Pear Deck Dashboard" width="378" height="700" usemap="#Map" title="Pear Deck Dashboard" class="center"/>
+	  	
+   	<map name="Map">
+	  <area id="text_tool" shape="circle" coords="52,470,34" href="#" alt="Text Tool" title="Text Tool">
+	  <area id="choice_tool" shape="circle" coords="137,470,34" href="#" alt="Choice Tool" title="Choice Tool">
+	  <area id="number_tool" shape="circle" coords="223,470,35" href="#" alt="Number Tool" title="Number Tool">
+      <area id="website_tool" shape="circle" coords="308,470,34" href="#" alt="Website Tool" title="Website Tool">
+	  <area id="draw_tool" shape="circle" coords="53,574,33" href="#" alt="Draw Tool" title="Draw Tool">
+	  <area id="drag_tool" shape="circle" coords="140,575,35" href="#" alt="Drag Tool" title="Drag Tool">
+      
+    </map>
+	<h4><div class="center_footer" style="font-size:10px">Image courtesy of Pear Deck for Google Slides [Screenshot by Jorey C. McComas]</div></h4><br />	
+	<div id="feedback" class="center_footer"></div>	
+		   
+   
+</div><!--closing wrapper-->
+	</div>
+</body>
+</html>

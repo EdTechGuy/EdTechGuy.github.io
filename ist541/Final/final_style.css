@@ -89,27 +89,7 @@ h2 {
 	font-size:3em;
 		
 }
-.feedback {
-	background-color:#5CBEED;
-	padding:10px;
-	justify-content: center;
-	width: 400px;
-}
-.image {
-	justify-content:center;
-}
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-.center_footer {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
 a {
 	padding: 12px;
     margin: 10px;
@@ -146,7 +126,7 @@ a:hover {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   display: block;
   transition: 0.3s;

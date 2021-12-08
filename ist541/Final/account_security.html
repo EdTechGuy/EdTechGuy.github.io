@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 3: Embedding external content using iFrames</title>
+<link href="../lab3/css/lab3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	   <a href="../Final/introduction.html">Introducing Pear Deck</a>
+	  <a href="test_deck.html">Give It A Try</a>
+	  <a href="create_account.html">Set Up an Account</a>
+	  <a href="account_security.html">Keep Account Secure</a>
+	  <a href="../Final/add_on_install.html">Add-On</a>
+	  <a href="../Final/dashboard_links.html">Dashboard</a>
+		<a href="engaged.html">Engaging Students</a>
+	  <a href="../Final/feedback.html"> Feedback </a>
+	</div>
+<div id="main">
+<!-- Use any element to open the sidenav -->
+<span style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</span>
+
+<script>
+	function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+	<div id="wrapper">
+			<h1> Account Security</h1>
+	</div>
+		
+	<br><br>
+	<div id="wrapper2">
+		<h2>If you ever choose to remove Pear Deck, you may want to remove the apps permissions for accessing Google Drive. Watch the video below to learn how to remove app access to your google account.</h2>
+	</div>
+	<!-- iFrame code will be added below -->
+	<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/KOdDnEs080E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	</div>
+</body>
+
+</html>
